@@ -1,0 +1,155 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+}
+
+html {
+    background-color: black;
+    opacity: 0.9;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+/** Navigation Bar **/
+
+.nav {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    z-index: 11;
+    background-color: black;
+}
+
+.navigation img {
+    max-height: 50px;
+    margin-left: 20px;
+}
+
+.navigation li {
+    text-align: right;
+    display: inline-block;
+    text-decoration: underline;
+    margin-right: 20px;
+}
+
+/** Hero **/
+
+.jumbotron {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    margin-bottom: 50px;
+}
+
+.hero {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+/** Tea of the Month **/
+
+.featured-tea {
+    width: 100%;
+    line-height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tea-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-flow: row wrap;
+    margin-bottom: 40px;
+}
+
+.tea-grid img {
+    width: 300px;
+    height: 200px;
+}
+
+.tea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tea a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+/** Locations **/
+
+.locations {
+    display: flex;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-items: center;
+    flex-direction: column;
+    height: 750px;
+    width: 100%;
+}
+
+.header h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.location-grid {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 15px 30px;
+    width: 300px;
+}
+
+.container li {
+    width: 300px;
+    height: 60%;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+}
+
+/** Contact **/
+
+.contact-grid {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
